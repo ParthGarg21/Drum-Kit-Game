@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  font-family: "Arvo", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 6rem;
+  color: #dbedf3;
+  text-shadow: 5px 5px 5px #da0463;
+}
+
+.btn {
+  box-sizing: border-box;
+  margin: 0rem 1rem;
+  width: 11%;
+  cursor: pointer;
+  padding: 3.5rem 0.5rem 1rem 0.5rem;
+  font-size: 4rem;
+  color: #da0463;
+  border-radius: 1rem;
+  border-style: none;
+  background-color: white;
+  outline: none;
+  border: 10px solid #404b69;
+  text-shadow: 3px 0px 0px #dbedf3;
+  transition: all;
+  transition-duration: 0.25s;
+}
+
+.btn:hover {
+  text-shadow: 5px 5px 0px #b4b4b4;
+  font-size: 4.5rem;
+  box-shadow: 10px 10px 0 #00144d;
+  text-shadow: 5px 5px 0px #333333;
+}
+
+.btns {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: #fff;
+}
+
+#btn-w {
+  background-image: url("images/tom1.png");
+}
+
+#btn-a {
+  background-image: url("images/tom2.png");
+}
+
+#btn-s {
+  background-image: url("images/tom3.png");
+}
+
+#btn-d {
+  background-image: url("images/tom4.png");
+}
+
+#btn-j {
+  background-image: url("images/snare.png");
+}
+
+#btn-k {
+  background-image: url("images/crash.png");
+}
+
+#btn-l {
+  background-image: url("images/kick.png");
+}
+
+.fade {
+  opacity: 0.5;
+}
+
+.another {
+  text-shadow: 5px 5px 0px #b4b4b4;
+
+  font-size: 4.5rem;
+  box-shadow: 10px 10px 0 #00144d;
+  text-shadow: 5px 5px 0px #333333;
+}
